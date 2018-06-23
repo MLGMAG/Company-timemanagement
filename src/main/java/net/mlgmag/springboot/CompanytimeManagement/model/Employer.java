@@ -2,6 +2,7 @@ package net.mlgmag.springboot.CompanytimeManagement.model;
 
 import lombok.Data;
 import net.mlgmag.springboot.CompanytimeManagement.enums.Authority;
+import net.mlgmag.springboot.CompanytimeManagement.enums.Position;
 import net.mlgmag.springboot.CompanytimeManagement.enums.Status;
 
 import java.math.BigDecimal;
