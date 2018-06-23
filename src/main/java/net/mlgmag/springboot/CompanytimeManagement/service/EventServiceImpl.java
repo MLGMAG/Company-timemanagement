@@ -1,8 +1,8 @@
-package net.mlgmag.springboot.CompanytimeManagement.service.genericServicesImplementation;
+package net.mlgmag.springboot.CompanytimeManagement.service;
 
+import net.mlgmag.springboot.CompanytimeManagement.definition.EventService;
 import net.mlgmag.springboot.CompanytimeManagement.model.Event;
 import net.mlgmag.springboot.CompanytimeManagement.repository.EventRepository;
-import net.mlgmag.springboot.CompanytimeManagement.service.genericServices.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

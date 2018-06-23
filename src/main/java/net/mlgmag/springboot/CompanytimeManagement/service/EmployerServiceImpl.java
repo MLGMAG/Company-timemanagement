@@ -1,8 +1,8 @@
-package net.mlgmag.springboot.CompanytimeManagement.service.genericServicesImplementation;
+package net.mlgmag.springboot.CompanytimeManagement.service;
 
+import net.mlgmag.springboot.CompanytimeManagement.definition.EmployerService;
 import net.mlgmag.springboot.CompanytimeManagement.model.Employer;
 import net.mlgmag.springboot.CompanytimeManagement.repository.EmployerRepository;
-import net.mlgmag.springboot.CompanytimeManagement.service.genericServices.EmployerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package net.mlgmag.springboot.CompanytimeManagement.service.genericServices;
+package net.mlgmag.springboot.CompanytimeManagement.definition;
 
 import java.util.List;
 import java.util.Optional;

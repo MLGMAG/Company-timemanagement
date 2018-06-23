@@ -1,7 +1,7 @@
-package net.mlgmag.springboot.CompanytimeManagement.service.genericServicesImplementation;
+package net.mlgmag.springboot.CompanytimeManagement.service;
 
+import net.mlgmag.springboot.CompanytimeManagement.definition.PositionService;
 import net.mlgmag.springboot.CompanytimeManagement.model.Position;
-import net.mlgmag.springboot.CompanytimeManagement.service.genericServices.PositionService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
