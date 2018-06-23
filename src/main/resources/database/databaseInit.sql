@@ -1,10 +1,3 @@
-CREATE TABLE authorities (
-id 		            uuid  			      NOT NULL UNIQUE,
-name 	            VARCHAR(255) 	    NOT NULL UNIQUE,
-
-PRIMARY KEY (id)
-);
-
 CREATE TABLE positions (
 id                uuid              NOT NULL UNIQUE,
 name              VARCHAR(255)      NOT NULL UNIQUE,
@@ -39,13 +32,4 @@ department_id     uuid              NOT NULL UNIQUE,
 PRIMARY KEY (id),
 FOREIGN KEY (position_id)   REFERENCES positions(id),
 FOREIGN KEY (department_id) REFERENCES departments(id)
-
-);
-
-CREATE TABLE employer_authority(
-employer_id       uuid              NOT NULL UNIQUE,
-authority_id      uuid              NOT NULL UNIQUE,
-
-FOREIGN KEY (employer_id)   REFERENCES employers(id),
-FOREIGN KEY (authority_id)  REFERENCES authorities(id)
 );
