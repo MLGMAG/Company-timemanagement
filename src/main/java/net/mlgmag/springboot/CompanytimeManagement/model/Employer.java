@@ -1,6 +1,8 @@
 package net.mlgmag.springboot.CompanytimeManagement.model;
 
 import lombok.Data;
+import net.mlgmag.springboot.CompanytimeManagement.enums.Authority;
+import net.mlgmag.springboot.CompanytimeManagement.enums.Status;
 
 import java.math.BigDecimal;
 import java.util.Set;
